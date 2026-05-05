@@ -1,0 +1,9 @@
+app = "helloworld-static-site"
+primary_region = "ewr"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[http_service]
+  internal_port = 80
+  force_https = true
